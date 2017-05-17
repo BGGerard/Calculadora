@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         div.setOnClickListener(this);
     }
 
-    @Override
+    @Override 
     public void onClick(View v) {
         String n1 = num1.getText().toString();//Se ocupa para pasar el texto string del edittext a int
         String n2 = num2.getText().toString();
