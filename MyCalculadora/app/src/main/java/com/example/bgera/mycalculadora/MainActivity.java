@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String n1 = num1.getText().toString();//Se ocupa para pasar el texto string del edittext a int
         String n2 = num2.getText().toString();
 
-        int entero1=Integer.parseInt(n1);//variables ya int de numb1
+        int entero1=Integer.parseInt(n1);//variables ya int de numb
         int entero2=Integer.parseInt(n2);
 
         int rt=0;//Simple variable
